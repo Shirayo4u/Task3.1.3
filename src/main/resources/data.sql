@@ -1,4 +1,4 @@
-INSERT INTO roles(name) VALUES ('ROLE_USER'),
+INSERT INTO roles(role_name) VALUES ('ROLE_USER'),
                                ('ROLE_ADMIN');
 
 INSERT INTO users(name, lastname, password, age, email) VALUES ('user', 'userov', '$2a$12$YLz/yqjc0/HGgS.dBbDoiucnJHNuWOlbBQPsfXpj65BkL0THHvpfK', 23, 'pomogite@mail.ru'),
